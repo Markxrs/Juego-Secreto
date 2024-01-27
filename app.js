@@ -26,7 +26,7 @@ function verificarIntento(){
         asignarTextoElemento('p', 'El numero secreto es mayor');
     }
     intentos++;
-    limpiarCaja()
+    limpiarCaja();
   
 }
 
@@ -53,7 +53,7 @@ function generarNumeroSecreto() {
     return generarNumeroSecreto();
    } else {
     numerosSorteados.push(numeroGenerado);
-    return numeroGenerado
+    return numeroGenerado;
    }
 
    }
@@ -74,6 +74,6 @@ function reiniciarJuego() {
      //inicializar el numero de intentos
      CondicionesIniciales() 
     //deshabilitar el boton de nuevo juego
-    document.querySelector('#reiniciar').setAttribute('disabled', 'true')
+    document.querySelector('#reiniciar').setAttribute('disabled', 'true');
 }
-CondicionesIniciales() 
+CondicionesIniciales() ;
